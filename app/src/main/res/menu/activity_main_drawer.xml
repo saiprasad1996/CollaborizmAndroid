@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="View My profile" />
+        <item
+            android:id="@+id/nav_activity_feed"
+            android:icon="@drawable/ic_activity_feed"
+            android:title="Activity Feed" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite"
+            android:title="My Favourites">
+
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="My Projects">
+            <menu android:id="@+id/projects">
+                <item android:title="Collaborizm Android App" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Account">
+            <menu>
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_account"
+                    android:title="My Account" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_lock"
+                    android:title="Logout" />
+            </menu>
+        </item>
+    </group>
+</menu>
