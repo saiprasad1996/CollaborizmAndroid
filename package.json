@@ -1,0 +1,27 @@
+{
+  "name": "collaborizm",
+  "version": "1.0.0",
+  "description": "Collaborizm Android App",
+  "main": "index.android.js",
+  "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiprasad1996/CollaborizmAndroid.git"
+  },
+  "keywords": [
+    "collaborizm"
+  ],
+  "author": "SAI PRASAD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saiprasad1996/CollaborizmAndroid/issues"
+  },
+  "homepage": "https://github.com/saiprasad1996/CollaborizmAndroid#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-native": "^0.39.2"
+  }
+}
