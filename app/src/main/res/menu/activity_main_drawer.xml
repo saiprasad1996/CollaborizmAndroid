@@ -37,6 +37,10 @@
                     android:id="@+id/nav_logout"
                     android:icon="@drawable/ic_lock"
                     android:title="Logout" />
+                <item
+                    android:id="@+id/react_render"
+                    android:icon="@drawable/ic_spanner"
+                    android:title="React Testing" />
             </menu>
         </item>
     </group>
